@@ -5,3 +5,8 @@ security:
 logging:
   level:
     org.springframework.security: DEBUG
+zuul:
+  routes:
+    resource:
+      path: /resource/**
+      url: http://localhost:9000

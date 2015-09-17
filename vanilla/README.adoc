@@ -1,3 +1,9 @@
+
+Se requiere ejecuatr redis:
+cd ~/redis-3.0.4
+make
+src/redis-server
+
 [[_the_resource_server_angular_js_and_spring_security_part_iii]]
 = The Resource Server
 
